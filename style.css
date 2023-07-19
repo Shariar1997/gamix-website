@@ -254,3 +254,78 @@ a:hover {
   color: #fff;
   margin-bottom: 50px;
 }
+
+/* MEDIA QUERIES */
+
+/* Media queries for smaller devices*/
+
+@media screen and (max-width: 576px) {
+  .section-title{
+    font-size: 2rem;
+  }
+  .section-desc{
+    text-align: center;
+  }
+  nav{
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+  nav > ul{
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0; 
+  }
+  .banner-section{
+    flex-direction: column-reverse;
+  }
+  .banner-head{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .banner-img img{
+    max-width: 350px;
+    margin-left: 0;
+    
+  }
+  .online-game-container{
+    margin: 0;
+  }
+  
+  .online-image-container, .play-instantly{
+    flex-direction: column;
+  }
+  .play-img img{
+    width: 80%;
+    height: 100%;
+    margin-left: 35px;
+    margin-bottom: 15px;
+  }
+  .category-container ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  .category-container{
+    padding: 0;
+    margin-bottom: 10px;
+    background: none;
+  }
+  .category-container button{
+    padding: 2px;
+    font-size: 0.8rem;
+  }
+  .list-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .terms-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media queries for medium devices like tablet */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  
+}
