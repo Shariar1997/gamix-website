@@ -1,40 +1,112 @@
 /* Work sans Font from Google  */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
 }
 
 /* Heading section starts */
 
-header{
-    padding: 40px 240px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 40px 220px;
 }
-nav{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+.nav-title {
+  display: flex;
+  align-items: center;
 }
-.nav-title{
-    display: flex;
-    align-items: center;
+nav img {
+  width: 90px;
+  height: 40px;
 }
-nav img{
-    width: 90px;
-    height: 40px;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav > ul{
-    display: flex;
-    align-items: center;
+nav li {
+  list-style: none;
+  margin-right: 32px;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
-nav li{
-    list-style: none;
-    margin-right: 32px;
-    font-size: 1.2rem;
-    font-weight: 500;
+nav li a {
+  text-decoration: none;
+  color: #3c354f;
 }
-nav li a{
-    text-decoration: none;
-    color: #3C354F;
+.follow {
+  font-size: 1.2rem;
+  margin: 0px;
+}
+nav li a {
+  display: flex;
+  align-items: center;
+}
+.btn-head {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+/* Banner section styles */
+
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+}
+.banner-head{
+    padding-left: 120px;
+    background-image: ;
+}
+.banner-head h1 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+}
+.banner-head li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.banner-head li a {
+  text-decoration: none;
+  font-size: 1rem;
+  
+}
+.goat {
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  color: #b335be;
+}
+.btn-primary {
+  padding: 22px 40px;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 0;
+  margin-top: 40px;
+}
+.btn-banner {
+  padding: 22px 40px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 0;
+  margin-left: 15px;
+}
+.banner-img{
+    width: 80%;
+    margin: 10px 100px 0 5px;
 }
