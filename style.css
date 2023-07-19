@@ -181,7 +181,7 @@ nav li a {
 /* Category Section styles */
 
 .category-container {
-  padding: 70px 210px;
+  padding: 40px 0 30px 90px;
   background: rgb(250, 229, 203);
 }
 .category-container ul {
@@ -197,14 +197,60 @@ nav li a {
   justify-content: center;
   align-items: center;
   padding: 10px 6px;
+  color: #0b0223;
+  font-size: 1.2rem;
+  font-weight: 600;
   border-radius: 50px;
   background: #fff;
   border: 0;
-  
 }
-.category-container button:hover{
-  cursor: ;
+a:hover {
+  cursor: pointer;
+  color: #ff42a5;
 }
-.category-container a{
+.category-container a {
   text-decoration: none;
+}
+
+/* Footer Section Starts */
+
+.footer{
+  text-align: center;
+  background-color: #0B0223;
+  padding: 100px;
+}
+.footer-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+}
+.list-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 60px;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+
+}
+.terms-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+  margin-bottom: 50px;
 }
